@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Header from './component/Header/Header';
+import Health from './component/Health/Health';
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-white">
       <Header></Header>
+      <Health></Health>
     </div>
   );
 }
