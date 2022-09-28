@@ -1,0 +1,51 @@
+[
+  {
+    "img": "../image/food.jpg",
+    "name": "Lauren Orr",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 24,
+    "time": 19,
+    "id": "1"
+  },
+ 
+  {
+    "img": "../image/exercise.jpg",
+    "name": "Proper exercise",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 30,
+    "time": 33,
+    "id": "2"
+  },
+  {
+    "img": "../image/diet.jpg",
+    "name": "Regular Diet",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 27,
+    "time": 18,
+    "id": "3"
+  },
+  {
+    "img": "../image/Healthy food.jpg",
+    "name": "Eat food",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 39,
+    "time": 22,
+    "id": "4"
+  },
+  {
+    "img": "../image/jogging.jpg",
+    "name": "Jogging",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 25,
+    "time": 25,
+    "id": "5"
+  },
+  {
+    "img": "../image/meditation.jpg",
+    "name": "Meditation",
+    "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
+    "age": 37,
+    "time": 30,
+    "id": "6"
+  }
+]
