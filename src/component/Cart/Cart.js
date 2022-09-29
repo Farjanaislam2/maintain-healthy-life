@@ -47,8 +47,7 @@ const Cart = ({cart}) => {
             <input type="text" placeholder="10 second" class="input w-full max-w-xs bg-white" />
            </div>
 
-           <button class="btn btn-wide text-white mt-10 ">Acitity completed</button>
-
+           <button class="btn btn-wide text-white mt-10 ">Activity Completed</button>
 
         </div>
     );
