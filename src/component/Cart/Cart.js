@@ -1,10 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
+import swal from 'sweetalert';
 
 const Cart = ({cart}) => {
 //time button
-const handleTimeAdd =()=>{
-    console.log('click')
+const [time, setTime] =useState (0)
+const handleTimeAdd = (time)=>{
+    setTime(time)
 }
+
+ //sweet button
+
+ const sweetButton =() =>{
+    swal("Congratulation!");
+
+ }
+
+
+    
+
 
     let total = 0;
     for(const health of cart){
@@ -40,10 +53,10 @@ const handleTimeAdd =()=>{
            <div className='bg-gray-400 text-black pt-3 pb-3 rounded-lg'>
 
            <div className='space-x-2 ml-2'>
-           <button className='bg-white rounded-full p-2 font-bold' onClick={handleTimeAdd}>10s</button>
-            <button className='bg-white rounded-full p-2 font-bold'>10s</button>
-            <button className='bg-white rounded-full p-2 font-bold'>10s</button>
-            <button className='bg-white rounded-full p-2 font-bold'>10s</button>
+           <button className='bg-white rounded-full p-2 font-bold' onClick={() =>handleTimeAdd(10)}>10s</button>
+            <button className='bg-white rounded-full p-2 font-bold'onClick={() =>handleTimeAdd(20)}>20s</button>
+            <button className='bg-white rounded-full p-2 font-bold'onClick={() =>handleTimeAdd(30)}>30s</button>
+            <button className='bg-white rounded-full p-2 font-bold'onClick={() =>handleTimeAdd(40)}>40s</button>
            </div>
 
            </div>
@@ -59,12 +72,12 @@ const handleTimeAdd =()=>{
 
            <div>
            <div className='bg-gray-300 rounded-lg p-4 mt-5'>
-           <p className='mt-5 mb-2'>Break Time:  </p>
+           <p className='mt-5 mb-2'>Break Time: {time} </p>
            </div>
            </div>
            </div>
 
-           <button class="btn btn-wide text-white mt-10 ">Activity Completed</button>
+           <button class="btn btn-wide text-white mt-10 " onClick={sweetButton}>Activity Completed</button>
 
         </div>
     );
