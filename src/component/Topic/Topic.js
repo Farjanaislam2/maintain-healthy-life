@@ -6,12 +6,12 @@ const Topic = (props) => {
   const { name, img, time, about, age } = healthy;
 
   return (
-    <div className="">
+    <div className="text-white">
       <div className="card  bg-base-100 shadow">
         <figure className="px-2 pt-10">
           <img src={img} alt="" className="rounded-xl" />
         </figure>
-        <h2 className="card-title">{name}</h2>
+        <h2 className="card-title mt-4 ml-5">{name}</h2>
         <div className="card-body items-center text-center">
           <p>{about}</p>
           <p>Age:{age}</p>

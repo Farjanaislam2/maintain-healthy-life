@@ -1,6 +1,17 @@
 import React from 'react';
 
 const Cart = ({cart}) => {
+//time button
+const handleTimeAdd =()=>{
+    console.log('click')
+}
+
+    let total = 0;
+    for(const health of cart){
+        //console.log(health)
+        total =total + health.time;
+    }
+    //console.log(total)
     return (
         <div className='sticky top-0 p-10 '>
 
@@ -29,7 +40,7 @@ const Cart = ({cart}) => {
            <div className='bg-gray-400 text-black pt-3 pb-3 rounded-lg'>
 
            <div className='space-x-2 ml-2'>
-           <button className='bg-white rounded-full p-2 font-bold'>10s</button>
+           <button className='bg-white rounded-full p-2 font-bold' onClick={handleTimeAdd}>10s</button>
             <button className='bg-white rounded-full p-2 font-bold'>10s</button>
             <button className='bg-white rounded-full p-2 font-bold'>10s</button>
             <button className='bg-white rounded-full p-2 font-bold'>10s</button>
@@ -41,10 +52,16 @@ const Cart = ({cart}) => {
 
            <div className='text-black mt-10 font-semibold'>
             <h1>Exercise Details</h1>
-            <p className='mt-5 mb-2'>Exercise Time:</p>
-            <input type="text" placeholder="200 second" class="input w-full max-w-xs bg-white" />
-            <p className='mt-5 mb-2'>Break Time:</p>
-            <input type="text" placeholder="10 second" class="input w-full max-w-xs bg-white" />
+           
+           <div className='bg-gray-300 rounded-lg p-4 mt-5'>
+           <p className='mt-5 mb-2'>Exercise Time:  {total}</p>
+           </div>
+
+           <div>
+           <div className='bg-gray-300 rounded-lg p-4 mt-5'>
+           <p className='mt-5 mb-2'>Break Time:  </p>
+           </div>
+           </div>
            </div>
 
            <button class="btn btn-wide text-white mt-10 ">Activity Completed</button>
