@@ -35,7 +35,7 @@ fetch('generated.json')
 
             </div>
 
-            <div className="cart-container bg-orange-300">
+            <div className="cart-container bg-gray-200">
            <Cart cart={cart}></Cart>
             </div>
         </div>

@@ -10,7 +10,7 @@ const Topic = (props) => {
     return (
       
        <div className="grid grid-cols-3 mt-10"> 
-        <div className="card w-96 bg-base-100 shadow">
+        <div className="card w-64 bg-base-100 shadow">
        <figure className="px-10 pt-10">
          <img src={img}alt="" className="rounded-xl" />
        </figure>
