@@ -14,11 +14,6 @@ const handleTimeAdd = (time)=>{
     swal("Congratulation!");
 
  }
-
-
-    
-
-
     let total = 0;
     for(const health of cart){
         //console.log(health)
