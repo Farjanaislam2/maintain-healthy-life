@@ -1,7 +1,7 @@
 [
   {
-    "img": "../image/food.jpg",
-    "name": "Lauren Orr",
+    "img": "https://img.freepik.com/free-photo/flay-lay-salad-bowl-weights_23-2148262120.jpg?w=740&t=st=1664458011~exp=1664458611~hmac=8299563191d32fcb3c938d7cd9a70f8416614792da19c547ad199a86b9fc2d47",
+    "name": "Vegetables",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 24,
     "time": 19,
@@ -9,7 +9,7 @@
   },
  
   {
-    "img": "../image/exercise.jpg",
+    "img": "https://img.freepik.com/free-photo/view-motivated-teenagers-demonstrate-good-flexibility-lean-feet-stretching-exercises-near-stairs-wear-comfortable-sneakers-training-have-dark-healthy-skin-strong-muscular-body_273609-29357.jpg?size=626&ext=jpg&uid=R33489921&ga=GA1.2.375885486.1664387135",
     "name": "Proper exercise",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 30,
@@ -17,7 +17,7 @@
     "id": "2"
   },
   {
-    "img": "../image/diet.jpg",
+    "img": "https://img.freepik.com/free-photo/concept-healthy-food-sports-lifestyle-vegetarian-lunch-healthy-breakfast-proper-nutrition-top-view-flat-lay_2829-6082.jpg?size=626&ext=jpg&uid=R33489921&ga=GA1.2.375885486.1664387135",
     "name": "Regular Diet",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 27,
@@ -25,23 +25,23 @@
     "id": "3"
   },
   {
-    "img": "../image/Healthy food.jpg",
-    "name": "Eat food",
+    "img": "https://img.freepik.com/free-photo/concentrated-woman-stretching-her-arms-with-sky-background_1150-376.jpg?size=626&ext=jpg&uid=R33489921&ga=GA1.2.375885486.1664387135",
+    "name": "Deep Breath",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 39,
     "time": 22,
     "id": "4"
   },
   {
-    "img": "../image/jogging.jpg",
-    "name": "Jogging",
+    "img": "https://img.freepik.com/free-photo/young-man-doing-sports-jogging-runing-park_1421-44.jpg?size=626&ext=jpg&uid=R33489921&ga=GA1.2.375885486.1664387135",
+    "name": "Run",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 25,
     "time": 25,
     "id": "5"
   },
   {
-    "img": "../image/meditation.jpg",
+    "img": "https://img.freepik.com/free-photo/young-beautiful-woman-doing-yoga-nature_1139-909.jpg?size=626&ext=jpg&uid=R33489921&ga=GA1.2.375885486.1664387135",
     "name": "Meditation",
     "about": "A healthy lifestyle simply means doing things that make you happy and feel good. For one person, that may mean walking a mile five times a week, eating fast food once a week, and spending virtual or in-person time with loved ones every other day.",
     "age": 37,
